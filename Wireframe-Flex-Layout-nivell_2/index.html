@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- GOOGLE FONT -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <title>Flex Layout</title>
+  </head>
+  <body>
+    <header class="header-container">
+        
+      <nav class="nav-container">
+        <div class="logo"><img class="logo-img" src="images/Material activitat Flex nivell 2-logo.png" alt="Logo"></div>
+        <ul class="nav-list">
+            <li class="list-item"><a href="#"><i class="fas fa-home "></i> Inicio</a></li>
+            <li class="list-item"><a href="#"><i class="fas fa-crutch"></i> Rutas</a></li>
+            <li class="list-item"><a href="#"><i class="fas fa-hotel"></i> Hoteles</a></li>
+            <li class="list-item"><a href="#"><i class="fas fa-plane"></i> Vuelos</a></li>
+            <li class="list-item"><a href="#"><i class="far fa-envelope"></i> Contacto</a></li>
+        </ul>
+        <div class="socials">
+          <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        </div>
+      </nav>
+      <div class="title-container">
+        <h1><i class="fas fa-quote-left"></i> Disfruta de la experiencia de otros viajeros <i class="fas fa-quote-right"></i></h1>
+      </div>
+    </header>
+    <main id="main">
+      <section class="main-container">
+        <div class="container-main__item">
+          <article class="main-item">
+            <img src="images/fushimi-inari-shrine-1886975_640.jpg" alt="Monte Fushimi">
+            <p class="fecha">5 de marzo de 2025</p>
+            <h2 class="photo-title">LOREM</h2>
+            <p><span class="short-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet qui distinctio enim at. Officia doloribus a quasi facilis corrupti, est, delectus vel id porro sed hic. Quasi, sapiente tempora?</span>
+             <span class="long-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex provident illo excepturi, aliquam nostrum in maxime asperiores molestiae at dolores neque modi fuga minima quasi! Corporis consequatur saepe sunt repellat.</span>
+             <span class="text-dots">...</span>
+             <span class="show-more-button" data-more="0">Leer mas</span>
+            </p>
+          </article>
+          <article class="main-item">
+            <img src="images/kyoto-1976538_640.jpg" alt="Kyoto">
+            <p class="fecha">5 de marzo de 2025</p>
+            <h2 class="photo-title">LOREM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae suscipit dolores impedit officia ratione consequatur, consectetur provident quibusdam autem rerum, aliquam, reiciendis quaerat blanditiis! Quia ducimus provident neque est nisi?</p>
+            <a href="#">Leer mas...</a>
+          </article>
+        </div>
+        <div class="container-main__item">
+          <article class="main-item">
+            <img src="images/mount-fuji-1352353_640.jpg" alt="Monte Fuji">
+            <p class="fecha">5 de marzo de 2025</p>
+            <h2 class="photo-title">LOREM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae suscipit dolores impedit officia ratione consequatur, consectetur provident quibusdam autem rerum, aliquam, reiciendis quaerat blanditiis! Quia ducimus provident neque est nisi?</p>
+          </article>
+          <article class="main-item">
+            <img src="images/mountain-5678172_640.jpg" alt="Montana">
+            <p class="fecha">5 de marzo de 2025</p>
+            <h2 class="photo-title">LOREM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae suscipit dolores impedit officia ratione consequatur, consectetur provident quibusdam autem rerum, aliquam, reiciendis quaerat blanditiis! Quia ducimus provident neque est nisi?</p>
+          </article>
+        </div>
+        <article class="main-item">
+          <img src="images/mount-fuji-2305606_640.jpg" alt="Monte Fuji">
+          <p class="fecha">5 de marzo de 2025</p>
+          <h2 class="photo-title">LOREM</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae suscipit dolores impedit officia ratione consequatur, consectetur provident quibusdam autem rerum, aliquam, reiciendis quaerat blanditiis! Quia ducimus provident neque est nisi?</p>
+        </article>
+      </section>
+      <aside id="aside">
+        <article class="aside-item">
+          <img id="japan" src="images/japan-112722_640.jpg" alt="Bandera Japon">
+        </article>
+        <article class="aside-item">
+          <img src="images/love-symbol-24154_640.png" alt="Love symbol">
+          <img src="images/luck-24155_640.png" alt="Luck symbol">
+          <img src="images/peace-24156_640.png" alt="Peace symbol">
+        </article>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Edusanvil</h1>
+            
+        <h2>Contact</h2>
+        
+        <address>
+         C/Lorem ipsum, 1 08950 Bcn<br>
+              
+          <a class="footer__btn" href="#">Contact</a>
+        </address>
+      </div>
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Web</h2>
+    
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Home</a>
+            </li>
+    
+            <li>
+              <a href="#">Lorem</a>
+            </li>
+                
+            <li>
+              <a href="#">Ipsum</a>
+            </li>
+          </ul>
+        </li>
+        
+        
+        
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="legal">
+        <p>&copy; 2021 edusanvil. All rights reserved.</p>
+        
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

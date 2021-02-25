@@ -1,0 +1,110 @@
+.header-container{
+    background-color: black;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.nav-container{
+    display: flex;
+    background-color: rgb(77, 77, 112);
+    margin-bottom: 15px;
+}
+
+.logo, .nav-list, .socials{
+    background-color: brown;
+    padding: 20px;
+    margin: 25px 10px; 
+}
+
+.logo{
+    flex: 18%;
+}
+.nav-list{
+    flex: 64%;
+}
+.socials{
+    flex: 18%;
+}
+
+.title-container{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    background-color: rgb(253, 214, 141);
+    padding: 20px;
+    margin: 25px 10px;
+    flex: auto;
+}
+
+main{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+}
+.main-container{
+    background-color: teal;
+    flex: 60%;
+    margin-right: 20px;
+}
+
+.container-main__item{
+    display: flex;
+}
+
+.main-item{
+    background-color: blue;
+    padding: 40px;
+    margin: 25px 10px;
+    flex: 30%;
+}
+.main-container > .main-item{
+    background-color: rgb(110, 110, 233);
+}
+
+aside{
+    background-color: red;
+    align-items: center;
+    flex: 20%;
+}
+
+.aside-item{
+    background-color: rgb(191, 191, 25);
+    padding: 25px;
+    margin: 25px 10px;
+    flex: 100%;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 25px;
+    background-color: black;
+}
+.footer-item{
+    background-color: burlywood;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+      background-color: yellow;
+    }
+    .main-container{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 480px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .container-main__item{
+        flex-direction: column;
+    }
+    
+  }
